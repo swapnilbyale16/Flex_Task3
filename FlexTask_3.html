@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        section .im img{
+            height: 100vh;
+            width: 100%;
+            position: relative;
+        }
+        main{
+            height: 75vh;
+            width: 23%;
+            position: absolute;
+            display: flex;
+            background-image: url(./t2.png);
+            justify-content: space-evenly;
+            align-items: center;
+            flex-direction: column;
+            left: 38%;
+            margin-top: 55px;
+            top: 0;
+        }
+        .login{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            color: white;
+            line-height: 80px;
+            top: 0%;
+            margin: auto;
+            margin-top: 10px;
+            gap: 15px;
+        }
+        button{
+            background: transparent;
+            color: white;
+            border-radius: 20px;
+            font-size: 10px;
+            line-height: 10px;
+            width: 180px;
+            padding: 5px 10px 5px 10px;
+            border-color: white;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="im">
+            <img src="./t1.jpeg" alt="">
+        </div>
+    </section>
+    <main>
+        <div class="login">
+            <h3>Login</h3>
+            <button>User id</button>
+            <button>Password</button>
+            <button style="color: orange;">Login</button>
+            <button style="color: orange;">I am NEW</button>
+        </div>
+    </main>
+</body>
+</html>
