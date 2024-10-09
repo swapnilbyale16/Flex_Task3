@@ -26,7 +26,8 @@ To run this project locally, follow these steps:
 - The template can be used to create login pages where a visual impact with a full-screen background image is desired. The transparent panel creates a modern, minimalist aesthetic for login functionality.
 
 Example:
-![Screenshot](./screenshot.png)
+![image](https://github.com/user-attachments/assets/fa3b9cd2-a68a-4318-8d74-0de75d32e2c5)
+
 
 ## Features
 - **Full-Screen Background Image**: A full-height background image fills the viewport, enhancing visual engagement.
